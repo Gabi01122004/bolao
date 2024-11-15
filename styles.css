@@ -1,0 +1,99 @@
+/* Reset básico para os estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container centralizado */
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Títulos */
+h1 {
+    text-align: center;
+    color: #ff6600;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos para as seções de entrada */
+input[type="number"], input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: red;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+/* Seção para o placar */
+#placarSection, #palpiteSection {
+    margin-bottom: 20px;
+}
+
+/* Tabela de ranking */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Estilos de botões adicionais */
+button {
+    margin-top: 10px;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+
+
+
+  
+  
+  
